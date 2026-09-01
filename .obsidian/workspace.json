@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "3ddac375ce394c15",
+    "type": "split",
+    "children": [
+      {
+        "id": "93b4d8bde07f517b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d0948d32374b045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Процесс загрузки и инициализации Linux"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a2c1f7ac0f28bb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d5c32243aa60b8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "417a4239ea8cc050",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "1011e0d2f2f2f651",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "a4e2cb9abd88f5ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3afcdc020f4c2235",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfc9973192f2f4fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26a1d971d48b3ff7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Процесс загрузки и инициализации Linux"
+            }
+          },
+          {
+            "id": "0e1a881843781578",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Процесс загрузки и инициализации Linux"
+            }
+          },
+          {
+            "id": "b0d6a955e6ce727e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "4ff6afcda6a85b89",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "cbfe5f6778dead92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Процесс загрузки и инициализации Linux"
+            }
+          },
+          {
+            "id": "7d509b47c19c9b8a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3d0948d32374b045",
+  "lastOpenFiles": [
+    "Module 1/_Оглавление.md",
+    "Module 1/Процесс загрузки и инициализации Linux.md",
+    "Module 1/Что такое Linux и зачем он нужен.md",
+    "Module 1/Учетная запись.md",
+    "Module 1/Установка ПО.md",
+    "Module 1/Снимок и клон ВМ.md",
+    "Module 1/Сетевые адаптеры в VirtualBox.md",
+    "Module 1/Настройка зеркал репозиториев.md",
+    "images/Pasted image 20260901004032.png",
+    "images/Pasted image 20260901004021.png",
+    "images/Pasted image 20260901003904.png",
+    "images/Pasted image 20260901003856.png",
+    "images/Pasted image 20260901003849.png",
+    "images/Pasted image 20260901003841.png",
+    "images/Pasted image 20260901132650.png",
+    "images/Pasted image 20260901021914.png",
+    "images/Pasted image 20260901015846.png",
+    "images/Pasted image 20260901015727.png",
+    "images",
+    "image",
+    "Новая папка",
+    "Module 1"
+  ]
+}
