@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "file": "Module 1/Что такое Linux и зачем он нужен.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Процесс загрузки и инициализации Linux"
+              "title": "Что такое Linux и зачем он нужен"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "file": "Module 1/Что такое Linux и зачем он нужен.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Процесс загрузки и инициализации Linux"
+              "title": "Обратные ссылки для Что такое Linux и зачем он нужен"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "file": "Module 1/Что такое Linux и зачем он нужен.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Процесс загрузки и инициализации Linux"
+              "title": "Исходящие ссылки из Что такое Linux и зачем он нужен"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
+                "file": "Module 1/Что такое Linux и зачем он нужен.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Процесс загрузки и инициализации Linux"
+              "title": "Структура Что такое Linux и зачем он нужен"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "3d0948d32374b045",
   "lastOpenFiles": [
-    "Module 1/Настройка зеркал репозиториев.md",
     "Module 1/Процесс загрузки и инициализации Linux.md",
+    "Module 1/Настройка зеркал репозиториев.md",
     "Module 1/Сетевые адаптеры в VirtualBox.md",
     "Module 1/_Оглавление.md",
     "Module 1/Что такое Linux и зачем он нужен.md",
