@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Команды и флаги.md",
+                "file": "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды и флаги"
+              "title": "Guided Case_1.1 - Основы работы с ОС Linux"
             }
           }
         ]
@@ -198,8 +198,11 @@
   },
   "active": "3d0948d32374b045",
   "lastOpenFiles": [
-    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
+    "Pasted image 20260903210838.png",
+    "Pasted image 20260903210750.png",
+    "Pasted image 20260903210504.png",
     "Module 1/Команды и флаги.md",
+    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
     "Module 1/_Оглавление.md",
     "Module 1/Ядро и userspace.md",
     "Pasted image 20260903150621.png",
@@ -217,8 +220,6 @@
     "Module 1/Снимок и клон ВМ.md",
     "images/Pasted image 20260901004032.png",
     "images/Pasted image 20260901004021.png",
-    "images/Pasted image 20260901003904.png",
-    "images/Pasted image 20260901003856.png",
     "images",
     "image",
     "Новая папка",
