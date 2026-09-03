@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Ядро и userspace.md",
+                "file": "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ядро и userspace"
+              "title": "Guided Case_1.1 - Основы работы с ОС Linux"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 1/Ядро и userspace.md",
+                "file": "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Ядро и userspace"
+              "title": "Обратные ссылки для Guided Case_1.1 - Основы работы с ОС Linux"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module 1/Ядро и userspace.md",
+                "file": "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Ядро и userspace"
+              "title": "Исходящие ссылки из Guided Case_1.1 - Основы работы с ОС Linux"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 1/Ядро и userspace.md",
+                "file": "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Ядро и userspace"
+              "title": "Структура Guided Case_1.1 - Основы работы с ОС Linux"
             }
           },
           {
@@ -196,10 +196,14 @@
   },
   "active": "3d0948d32374b045",
   "lastOpenFiles": [
+    "Pasted image 20260903150547.png",
+    "Pasted image 20260903150546.png",
+    "Pasted image 20260903150543.png",
+    "Module 1/Ядро и userspace.md",
+    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
     "Pasted image 20260902130048.png",
     "Pasted image 20260902125644.png",
     "Module 1/_Оглавление.md",
-    "Module 1/Ядро и userspace.md",
     "Module 1/Процесс загрузки и инициализации Linux.md",
     "Module 1/Что такое Linux и зачем он нужен.md",
     "Module 1/Настройка зеркал репозиториев.md",
@@ -213,9 +217,6 @@
     "images/Pasted image 20260901003856.png",
     "images/Pasted image 20260901003849.png",
     "images/Pasted image 20260901003841.png",
-    "images/Pasted image 20260901132650.png",
-    "images/Pasted image 20260901021914.png",
-    "images/Pasted image 20260901015846.png",
     "images",
     "image",
     "Новая папка",
