@@ -128,3 +128,33 @@ RAID - для повышения надежности хранения данн�
 Сохраним конфигурацию массива, чтобы он автоматически собирался при загрузке: `sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf`
 ### **Создаём LVM поверх RAID**
 Создадим на RAID-массиве LVM для гибкого управления пространством.
+**Создаём Physical Volume (PV)**
+Сначала инициализируем **/dev/md0** как физический том LVM: установим пакет **lvm2** командой `sudo apt install lvm2 -y`, а затем создадим диск командой `sudo pvcreate /dev/md0`
+Проверим созданный PV: `sudo pvs`
+**Создаём Volume Group (VG)**
+Теперь создадим группу томов **vg_data**, в которую добавим наш PV: `sudo vgcreate vg_data /dev/md0`
+Проверим VG: `sudo vgs`
+**Создаём Logical Volume (LV)**
+Создадим логический том **lv_projects** размером 1 ГБ: `sudo lvcreate -L 1G -n lv_projects vg_data`
+Разберём команду:
+- **-L 1G** - размер тома (1 гигабайт)
+- **-n lv_projects** - имя тома
+- **vg_data** - группа томов, из которой берём пространство
+Проверим созданный LV: `sudo lvs`
+Теперь у нас есть логический том **/dev/vg_data/lv_projects**, который можно использовать как обычный раздел.
+**Создаём файловую систему и монтируем**
+Создадим на логическом томе файловую систему ext4: `sudo mkfs.ext4 -L projects /dev/vg_data/lv_projects`
+Создадим точку монтирования и примонтируем: `sudo mkdir /mnt/projects`, теперь `sudo mount /dev/vg_data/lv_projects /mnt/projects`
+Такое монтирование временное: после перезагрузки файловая система не будет подключена автоматически.
+### **Расширяем логический том**
+Одно из главных преимуществ LVM - возможность легко менять размер томов. Допустим, нам нужно увеличить **lv_projects** до 1.5 ГБ.
+Сначала увеличим сам LV: `sudo lvextend -L 1.5G /dev/vg_data/lv_projects`
+Теперь нужно "растянуть" файловую систему, чтобы она заняла новое пространство: `sudo resize2fs /dev/vg_data/lv_projects`
+> **Важно:** для ext4 файловую систему можно увеличивать без отмонтирования. Но уменьшать можно только отмонтированную ФС.
+
+Проверим результат: `df -h /mnt/projects`
+### **Создаём второй логический том**
+sudo lvcreate -L 500M -n lv_backups vg_data
+sudo mkfs.ext4 -L backups /dev/vg_data/lv_backups
+sudo mkdir /mnt/backups
+sudo mount /dev/vg_data/lv_backups /mnt/backups
