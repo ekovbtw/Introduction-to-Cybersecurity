@@ -251,3 +251,74 @@ esac
 - ***)**  - вариант по умолчанию, который срабатывает для любого другого значения
 - **esac** завершает всю конструкцию **case**
 ### **Версия 8. Добавляем проверку второго аргумента**
+```
+#!/bin/bash
+# Shell-script v8
+
+script_name="bash-lab"
+version="0.8"
+
+mode="$1"
+target_file="$2"
+
+if [ "$#" -eq 0 ]; then
+    echo "Usage: $0 <mode> <log-file>"
+    echo "Modes: info, preview, scan, help"
+    exit 1
+fi
+
+case "$mode" in
+    help)
+        echo "Usage: $0 <mode> <log-file>"
+        echo "Modes: info, preview, scan, help"
+        ;;
+    info)
+        if [ -z "$target_file" ]; then
+            echo "Error: log file is required for mode: $mode"
+            exit 1
+        fi
+
+        if [ ! -f "$target_file" ]; then
+            echo "Error: file not found: $target_file"
+            exit 1
+        fi
+
+        line_count=$(wc -l < "$target_file")
+        echo "$script_name version $version"
+        echo "Target file: $target_file"
+        echo "Lines: $line_count"
+        ;;
+    preview)
+        if [ -z "$target_file" ]; then
+            echo "Error: log file is required for mode: $mode"
+            exit 1
+        fi
+
+        if [ ! -f "$target_file" ]; then
+            echo "Error: file not found: $target_file"
+            exit 1
+        fi
+
+        echo "Preview mode is not implemented yet"
+        ;;
+    scan)
+        if [ -z "$target_file" ]; then
+            echo "Error: log file is required for mode: $mode"
+            exit 1
+        fi
+
+        if [ ! -f "$target_file" ]; then
+            echo "Error: file not found: $target_file"
+            exit 1
+        fi
+
+        echo "Scan mode is not implemented yet"
+        ;;
+    *)
+        echo "Error: unknown mode: $mode"
+        exit 1
+        ;;
+esac
+```
+У нас появилась новая проверка: **[ -z "$target_file" ]**. Оператор **-z** проверяет, пуста ли строка. В этом случае условие читается так: "если имя лог-файла не передано". Кавычки вокруг **$target_file** важны.
+### **Версия 9. Реализуем режим preview через while**
