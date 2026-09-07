@@ -125,3 +125,129 @@ fi
 По соглашению:
 - **0** означает успешное завершение команды;
 - любое другое число обычно означает, что команда завершилась с ошибкой или не смогла выполнить ожидаемое действие.
+### **Версия 5. Проверяем существование файла**
+```
+#!/bin/bash
+# Shell-script v5
+
+script_name="bash-lab"
+version="0.5"
+
+target_file="$1"
+
+if [ "$#" -eq 0 ]; then
+    echo "Usage: $0 <log-file>"
+    exit 1
+fi
+
+if [ ! -f "$target_file" ]; then
+    echo "Error: file not found: $target_file"
+    exit 1
+fi
+
+echo "$script_name version $version"
+echo "Target file: $target_file"
+echo "File exists"
+```
+Здесь появилась ещё одна проверка: **[ ! -f "$target_file" ]**
+Оператор **-f** проверяет, существует ли по указанному пути обычный файл.
+Символ **!** означает отрицание.
+Полезные проверки файлов:
+- **-f file** - существует обычный файл
+- **-d dir** - существует директория
+- **-e path** - путь существует
+- **-r file** - файл доступен для чтения
+- **-w file** - файл доступен для записи
+- **-x file** - файл исполняемый
+- **! условие** - отрицание условия
+### **Версия 6. Получаем информацию о файле**
+```
+#!/bin/bash
+# Shell-script v6
+
+script_name="bash-lab"
+version="0.6"
+
+target_file="$1"
+
+if [ "$#" -eq 0 ]; then
+    echo "Usage: $0 <log-file>"
+    exit 1
+fi
+
+if [ ! -f "$target_file" ]; then
+    echo "Error: file not found: $target_file"
+    exit 1
+fi
+
+line_count=$(wc -l < "$target_file")
+
+echo "$script_name version $version"
+echo "Target file: $target_file"
+echo "Lines: $line_count"
+```
+Появилась новая строка: `**line_count=$(wc -l < "$target_file")**`
+Команда **wc -l** считает строки.
+![[Pasted image 20260907223926.png]]
+Нам нужно сохранить **только число**, без имени файла. Для этого передадим содержимое файла команде **wc** через стандартный ввод: **wc -l < sample.log**. Тогда мы передадим просто число **6**. **Стандартный ввод** - это поток данных, который команда получает на вход.
+### **Версия 7. Добавляем режимы работы через case**
+```
+#!/bin/bash
+# Shell-script v7
+
+script_name="bash-lab"
+version="0.7"
+
+mode="$1"
+target_file="$2"
+
+if [ "$#" -eq 0 ]; then
+    echo "Usage: $0 <mode> <log-file>"
+    echo "Modes: info, preview, scan, help"
+    exit 1
+fi
+
+case "$mode" in
+    help)
+        echo "Usage: $0 <mode> <log-file>"
+        echo "Modes: info, preview, scan, help"
+        ;;
+    info)
+        line_count=$(wc -l < "$target_file")
+        echo "$script_name version $version"
+        echo "Target file: $target_file"
+        echo "Lines: $line_count"
+        ;;
+    preview)
+        echo "Preview mode is not implemented yet"
+        ;;
+    scan)
+        echo "Scan mode is not implemented yet"
+        ;;
+    *)
+        echo "Error: unknown mode: $mode"
+        exit 1
+        ;;
+esac
+```
+
+Общий вид следующий:
+```
+case "$variable" in
+    value1)
+        команды
+        ;;
+    value2)
+        команды
+        ;;
+    *)
+        команды_по_умолчанию
+        ;;
+esac
+```
+В нашем скрипте Bash сравнивает значение переменной **mode** с вариантами **help**, **info**, **preview** и **scan**.
+- **help)**, **info)** и другие варианты задают ветки обработки
+- **;;** завершает блок команд выбранного варианта
+- ***)**  - вариант по умолчанию, который срабатывает для любого другого значения
+- **esac** завершает всю конструкцию **case**
+### **Версия 8. Добавляем проверку второго аргумента**
