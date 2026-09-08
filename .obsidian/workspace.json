@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Guided Case_1.4 - Основы Bash.md",
+                "file": "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guided Case_1.4 - Основы Bash"
+              "title": "Guided Case_1.5 - Менеджмент пакетов, сборка и установка"
             }
           }
         ]
@@ -198,25 +198,27 @@
   },
   "active": "3d0948d32374b045",
   "lastOpenFiles": [
-    "Module 1/Guided Case_1.3 - Диски, RAID.md",
+    "Pasted image 20260908150148.png",
+    "Pasted image 20260908144457.png",
     "Module 1/Guided Case_1.4 - Основы Bash.md",
+    "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
+    "Module 1/Команды и флаги.md",
+    "Pasted image 20260908133508.png",
+    "Pasted image 20260908133244.png",
+    "Pasted image 20260908133011.png",
+    "Pasted image 20260908132902.png",
+    "Module 1/Процесс загрузки и инициализации Linux.md",
+    "Module 1/Ядро и userspace.md",
+    "Module 1/Что такое Linux и зачем он нужен.md",
+    "Module 1/Guided Case_1.3 - Диски, RAID.md",
+    "Module 1/Guided Case_1.2 - Иерархия файловой системы ОС GNU'Linux.md",
+    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
+    "Module 1/_Оглавление.md",
     "Pasted image 20260907223926.png",
     "Pasted image 20260907213156.png",
-    "Module 1/Команды и флаги.md",
     "Pasted image 20260905003934.png",
     "Pasted image 20260905003602.png",
     "Pasted image 20260905003419.png",
-    "Pasted image 20260905003143.png",
-    "Pasted image 20260904205056.png",
-    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
-    "Module 1/Guided Case_1.2 - Иерархия файловой системы ОС GNU'Linux.md",
-    "Module 1/_Оглавление.md",
-    "Pasted image 20260904153720.png",
-    "Pasted image 20260904153558.png",
-    "Pasted image 20260904153554.png",
-    "Module 1/Ядро и userspace.md",
-    "Module 1/Что такое Linux и зачем он нужен.md",
-    "Module 1/Процесс загрузки и инициализации Linux.md",
     "Module 1/Настройка зеркал репозиториев.md",
     "Module 1/Сетевые адаптеры в VirtualBox.md",
     "Module 1/Учетная запись.md",
