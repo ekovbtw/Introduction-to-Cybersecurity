@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
+                "file": "Module 1/Без названия.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guided Case_1.5 - Менеджмент пакетов, сборка и установка"
+              "title": "Без названия"
             }
           }
         ]
@@ -198,11 +198,12 @@
   },
   "active": "3d0948d32374b045",
   "lastOpenFiles": [
+    "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
+    "Module 1/Без названия.md",
     "Pasted image 20260908152045.png",
     "Pasted image 20260908150148.png",
     "Pasted image 20260908144457.png",
     "Module 1/Guided Case_1.4 - Основы Bash.md",
-    "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
     "Module 1/Команды и флаги.md",
     "Pasted image 20260908133508.png",
     "Pasted image 20260908133244.png",
@@ -218,7 +219,6 @@
     "Pasted image 20260907223926.png",
     "Pasted image 20260907213156.png",
     "Pasted image 20260905003934.png",
-    "Pasted image 20260905003602.png",
     "Module 1/Настройка зеркал репозиториев.md",
     "Module 1/Сетевые адаптеры в VirtualBox.md",
     "Module 1/Учетная запись.md",
