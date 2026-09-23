@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Без названия.md",
+                "file": "Module 1/Процесс загрузки и инициализации Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "Процесс загрузки и инициализации Linux"
             }
           }
         ]
@@ -198,8 +198,12 @@
   },
   "active": "3d0948d32374b045",
   "lastOpenFiles": [
-    "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
+    "Module 1/Ядро и userspace.md",
+    "Module 1/Что такое Linux и зачем он нужен.md",
+    "Module 1/Guided Case_1.2 - Иерархия файловой системы ОС GNU'Linux.md",
+    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
     "Module 1/Без названия.md",
+    "Module 1/Guided Case_1.5 - Менеджмент пакетов, сборка и установка.md",
     "Pasted image 20260908152045.png",
     "Pasted image 20260908150148.png",
     "Pasted image 20260908144457.png",
@@ -210,11 +214,7 @@
     "Pasted image 20260908133011.png",
     "Pasted image 20260908132902.png",
     "Module 1/Процесс загрузки и инициализации Linux.md",
-    "Module 1/Ядро и userspace.md",
-    "Module 1/Что такое Linux и зачем он нужен.md",
     "Module 1/Guided Case_1.3 - Диски, RAID.md",
-    "Module 1/Guided Case_1.2 - Иерархия файловой системы ОС GNU'Linux.md",
-    "Module 1/Guided Case_1.1 - Основы работы с ОС Linux.md",
     "Module 1/_Оглавление.md",
     "Pasted image 20260907223926.png",
     "Pasted image 20260907213156.png",
